@@ -27,7 +27,7 @@ class U2NetModel:
             sys.path.append('./U-2-Net')
         
         # Import the U2NET model from the repository
-        from U-2-Net.model import U2NET  # This might need adjustment based on the actual path
+        from model import U2NET  # This might need adjustment based on the actual path
         
         # Initialize the model
         self.model = U2NET(3, 1)
